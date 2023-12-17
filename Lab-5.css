@@ -58,7 +58,7 @@ a:hover {
 #flex-item-1 /*type*/{
   width: 50%;
   padding:8vw;
-  background-image: url("Proccess-Book-Mockup.png"); /*can't figure out why the pic isnt wokring, worked before*/
+  background-image: url("Proccess-Book-Mockup.png");
   background-size: 100%;
 }
 
@@ -79,7 +79,7 @@ a:hover {
 #flex-item-4 /*mixed media*/{
   width: 50%;
   padding:8vw;
-  background-image: url("lidded-pot.png");
+  background-image: url("lidded-pot.png"); /* image is weirdly cropped, not sure how to fix that */
   background-size: 100%;
 }
 
