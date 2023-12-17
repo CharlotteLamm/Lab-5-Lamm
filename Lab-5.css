@@ -1,22 +1,22 @@
 
 
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: sans-serif;
 }
 
 h1 {
   font-size:3vw;
+  font-family:Impact, 'Arial Narrow Bold', sans-serif;
   margin:auto;
   padding:auto;
   text-align: center;
 }
 
 h3 {
-  font-size:80%;
   text-align: center;
   margin:auto;
   padding:auto;
-  font-size:1vw;
+  font-size:2vw;
 }
 
 .horizontal-nav li {
@@ -45,62 +45,60 @@ nav {
 
 a:hover {
   color: coral;
+  
 }
 
 .flex-container {
   display: flex;
   flex-direction: row;
+  font-family:Impact, 'Arial Narrow Bold', sans-serif;
 }
 
 
 #flex-item-1 /*type*/{
   width: 50%;
-  margin:5vw;
-  text-align: center;
+  padding:8vw;
   background-image: url("Proccess-Book-Mockup.png"); /*can't figure out why the pic isnt wokring, worked before*/
   background-size: 100%;
-  font-size:1vw;
 }
 
 #flex-item-2 /*print*/ {
   width: 50%;
-  padding:5vw;
-  text-align: center;
+  padding:8vw;
   background-image: url("Paak.png");
   background-size: 100%;
-  font-size:1vw;
 }
 
 #flex-item-3 /*branding*/ {
   width: 50%;
-  padding:5vw;
-  text-align: center;
+  padding:8vw;
   background-image: url("Business Card Mockup4 copy.png");
   background-size: 100%;
-  font-size:1vw;
 }
 
 #flex-item-4 /*mixed media*/{
   width: 50%;
-  padding:5vw;
-  text-align: center;
+  padding:8vw;
   background-image: url("lidded-pot.png");
   background-size: 100%;
-  font-size:1vw;
 }
 
 
 #flex-item-5:hover {
   background-color: coral;
+  transition-duration:.3s;
 }
 #flex-item-6:hover {
   background-color: coral;
+  transition-duration:.3s;
 }
 #flex-item-7:hover {
   background-color: coral;
+  transition-duration:.3s;
 }
 #flex-item-8:hover {
   background-color: coral;
+  transition-duration:.3s;
 }
 
 #flex-item-5 {
